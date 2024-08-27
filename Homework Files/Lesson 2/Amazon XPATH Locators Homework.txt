@@ -1,0 +1,15 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from time import sleep
+
+1. Amazon logo: driver.find_element(By.XPATH, value: "//img[@alt='Amazon']")
+2. Email field:
+3. Continue button:
+4. Conditions of use link:
+5. Privacy Notice link:
+6. Need help link:
+7. Forgot your password link
+8. Oter issues with Sign-in link:
+9. Create your Amazon account button:
