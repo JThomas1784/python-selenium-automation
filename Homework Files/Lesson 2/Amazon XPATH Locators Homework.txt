@@ -1,15 +1,11 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from time import sleep
+# Amazon.com Sign-in
 
 1. Amazon logo: driver.find_element(By.XPATH, value: "//img[@alt='Amazon']")
-2. Email field:
-3. Continue button:
-4. Conditions of use link:
-5. Privacy Notice link:
-6. Need help link:
-7. Forgot your password link
-8. Oter issues with Sign-in link:
-9. Create your Amazon account button:
+2. Email field: driver.find_element(By.XPATH, value: //input[@id='ap_email'])
+3. Continue button: driver.find_element(By.XPATH, value: //span[@id='continue']//input[@type='submit'])
+4. Conditions of use link: driver.find_element(By.XPATH, value: //a[text()='Conditions of Use'])
+5. Privacy Notice link: driver.find_element(By.XPATH, value: //a[text()='Privacy Notice'])
+6. Need help link: driver.find_element(By.XPATH, value: //a[text()='Need help?'])
+7. Forgot your password link: driver.find_element(By.XPATH, value: //a[text()='Forgot your password?'])
+8. Oter issues with Sign-in link: driver.find_element(By.XPATH, value: //a[text()='Other issues with Sign-In'])
+9. Create your Amazon account button: driver.find_element(By.XPATH, value: //a[text()='Create your Amazon account'])
