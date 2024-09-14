@@ -18,7 +18,7 @@ sign_in_button_top.click()
 side_nav_sign_in = driver.find_element(By.XPATH, "//a[@id='account']")
 side_nav_sign_in.click()
 
-sign_in_text = driver.find_element(By.XPATH, "//h1[text()='Sign into your Target account']")
+sign_in_text = driver.find_element(By.XPATH, "//span[text()='Sign into your Target account']")
 
 sign_in_button = driver.find_element(By.XPATH, "//button[@type='submit']")
 
