@@ -11,8 +11,3 @@ class Application:
         self.main_page = MainPage(driver)
         self.header = Header(driver)
         self.search_results_page = SearchResultsPage(driver)
-
-
-
-app = Application()
-app.header.search_product()
