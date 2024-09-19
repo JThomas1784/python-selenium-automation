@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from behave import given, when, then, use_fixture
 
-# Amazon Locators
+# Amazon Locators Lesson
 Top Logo: [role="img"][aria-label="Amazon"]
 Create Account: h1.a-spacing-small
 Your Name: input#ap_customer_name

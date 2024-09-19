@@ -1,5 +1,5 @@
 # Created by jamontethomas at 9/7/24
-Feature: Test for cart functionalit
+Feature: Test for cart functionality
 
   Scenario: User can see Cart Empty message
     Given Open Target main page
