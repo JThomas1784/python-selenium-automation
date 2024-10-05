@@ -1,10 +1,12 @@
 # Created by jamontethomas at 9/5/24
 Feature: Tests for Target Search functionality
 
+  @smoke @safari_only
   Scenario: User can search for coffee
     Given Open Target main page
     When  Search for coffee
-    Then  Verify that correct search results shown
+    Then  Verify that correct search results shown for coffee
+    Then Verify product coffee in URL
 
 Scenario: User can search for tea
   Given Open Target main page
