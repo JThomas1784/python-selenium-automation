@@ -44,7 +44,7 @@ def step_then_verify_product_in_cart(context):
 
 
     product_names = [item.text for item in cart_items]
-    assert any("toy" in name.lower() for name in product_names), "The cart does not contain the expected product."
+    assert any("toy" in name.lower() for name in product_names), "The cart( does not contain the expected product."
 
 
 def after_scenario(context, scenario):
