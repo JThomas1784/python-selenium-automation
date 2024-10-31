@@ -16,3 +16,10 @@ class Header(Page):
     def click_cart(self):
         self.wait_to_be_clickable(*self.CART_BTN)
         # self.driver.find_element(*self.CART_BTN).click()
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.sign_in_button = "locator_for_sign_in_button"
+
+    def click_sign_in(self):
+        self.driver.find_element_by_css_selector(self.sign_in_button).click()
